@@ -9,7 +9,7 @@ import AlbumList from "./src/components/AlbumList";
 // Create a component
 const App = () => {
     return (
-        <View style={{ flex: 1 }}> {/* expanding the component to make it fit to the device */}
+        <View style={{ flex: 1 }}>
             <Header headerText={"Albums"} />
             <AlbumList />
         </View>
